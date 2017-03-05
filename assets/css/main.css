@@ -1,0 +1,55 @@
+    body {
+        /*background-color: #F15F62;*/
+    }
+
+    .red {
+        background-color: red;
+        min-height: 10rem;
+    }
+
+    .blue {
+        background-color: blue;
+        min-height: 10rem;
+    }
+
+    .green {
+        background-color: green;
+        min-height: 10rem;
+    }
+
+    div.frame {
+        overflow: hidden;
+        width: 50%;
+        height: auto;
+    }
+
+    div.frame img {
+        background-image: url("../img/svg/ellipse-108.png");
+        background-size: 10rem;
+        background-color: white;
+        background-blend-mode: lighten;
+        margin-bottom: 3.3rem;
+        padding: 3rem;
+        width: 100%;
+        -moz-box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+        -webkit-box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+        box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    }
+
+    .heading {
+        width: 50%;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /*background-color: white;*/
+        padding: 10rem;
+    }
+
+    .intro img {
+        margin-top: 10rem;
+        max-width: 10rem;
+        margin-bottom: 2rem;
+    }
